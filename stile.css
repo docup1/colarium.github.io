@@ -94,7 +94,7 @@ a{
 
 
 
-@media (max-width: 900px){
+@media (max-width: 900px) or (min-device-width: 1000px){
 	header{
 		display: grid;
 		height: auto;
