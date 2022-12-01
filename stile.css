@@ -94,7 +94,7 @@ a{
 
 
 
-@media (max-width: 900px) or (max-device-width: 900px){
+@media (max-width: 930px) or (max-device-width: 1280px){
 	header{
 		display: grid;
 		height: 100%;
