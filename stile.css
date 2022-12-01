@@ -122,14 +122,15 @@ a{
 		margin: 3px;
 		margin-left: 5px;
 		margin-right: 5px;
-
+		font-size: auto;
 	}
 	.logo{
 		display: block;
 	    margin-left: auto;
 	    margin-right: auto;
 	    margin-top: auto;
-	    
+	    height: auto;
+		width: 30%;
 	}
 	.shop{
 		display: flex;
