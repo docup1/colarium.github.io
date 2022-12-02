@@ -69,7 +69,7 @@ a{
 .product{
 	border: 3px solid white;
 	display: flex;
-	width: 370px;
+	width: 500px;
 	height: auto;
 	padding: 15px;
 	background-color: #0D2E41;
@@ -91,10 +91,18 @@ a{
 
 
 
+@media (max-width: 1200px) or (max-device-width: 1200px){
+	.button{
+		font-size: 40px;
+	}
+	.product{
+		width: 370px;
+	}
+
+}
 
 
-
-@media (max-width: 930px) or (max-device-width: 1500px){
+@media (max-width: 1000px) or (max-device-width: 1000px){
 	header{
 		display: grid;
 		height: 100%;
@@ -141,9 +149,8 @@ a{
 
 	}
 	.product{
-		width: 100%;
+		width: 60%;
 		display: grid;
-		width: auto;
 		height: auto;
 		padding: 15px;
 		border-radius: 20px;
