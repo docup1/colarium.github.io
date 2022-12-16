@@ -117,7 +117,7 @@ a{
 	}
 	img{
 		width: 100%;
-		
+		border-radius: 36px;
 		margin-left: auto;
 		margin-right: auto;
 	}
@@ -149,11 +149,11 @@ a{
 
 	}
 	.product{
-		width: 60%;
+		width: 70%;
 		display: grid;
 		height: auto;
 		padding: 15px;
-		border-radius: 20px;
+		border-radius: 27px;
 		margin: 15px;
 	}
 
